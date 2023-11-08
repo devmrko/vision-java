@@ -38,12 +38,10 @@ public class VisionFunction {
 			Properties properties;
 			properties = PropertiesLoaderUtils.loadProperties(resource);
 
-//			String configurationFilePath = properties.getProperty("configurationFilePath");
-//			String profile = properties.getProperty("profile");
-			String namespaceName = properties.getProperty("namespaceName");
-			String bucketName = properties.getProperty("bucketName");
-			String compartmentId = properties.getProperty("compartmentId");
-			String urlStr = properties.getProperty("vision.post.api.url");
+			String namespaceName = System.getenv("namespaceName") == null ? properties.getProperty("namespaceName") : System.getenv("namespaceName");
+			String bucketName = System.getenv("bucketName") == null ? properties.getProperty("bucketName") : System.getenv("bucketName");
+			String compartmentId = System.getenv("compartmentId") == null ? properties.getProperty("compartmentId") : System.getenv("compartmentId");
+			String urlStr = System.getenv("vision.post.api.url") == null ? properties.getProperty("vision.post.api.url") : System.getenv("vision.post.api.url");
 
 			AnalyzeImageResult analyzeImageResult;
 			try {
