@@ -7,7 +7,7 @@ import com.fnproject.fn.testing.FnResult;
 import com.fnproject.fn.testing.FnTestingRule;
 import com.oracle.fn.VisionFunction;
 
-public class HelloFunctionTest {
+public class VisionFunctionTest {
 
     @Rule
     public final FnTestingRule testing = FnTestingRule.createDefault();
