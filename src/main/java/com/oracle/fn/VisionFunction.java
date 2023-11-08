@@ -28,7 +28,7 @@ public class VisionFunction {
 
 	public String handleRequest(String input) {
 
-		try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(VisionTest.class)) {
+		try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(VisionFunction.class)) {
 
 			InputParser inputParser = context.getBean(InputParser.class);
 			OciSdkHelper ociSdkHelper = context.getBean(OciSdkHelper.class);
