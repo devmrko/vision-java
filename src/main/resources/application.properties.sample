@@ -1,0 +1,16 @@
+configurationFilePath=
+profile=
+
+environment.variable=
+
+namespaceName=
+bucketName=
+compartmentId=
+
+vision.post.api.url=
+
+"WARNING: A class javax.activation.DataSource for a default provider MessageBodyWriter<javax.activation.DataSource> was not found. The provider is not available."
+
+"Nov 08, 2023 12:04:15 PM org.glassfish.jersey.message.internal.MessagingBinders$EnabledProvidersBinder bindToBinder"
+
+"[main] ERROR com.oracle.fn.RestAPIHelper - getOutputStream error: Server returned HTTP response code: 555 for URL: https://yh0olybn5pqce4n-adwmadhack.adb.ap-seoul-1.oraclecloudapps.com/ords/admin/dryj/vision"
