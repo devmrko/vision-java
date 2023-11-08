@@ -4,3 +4,4 @@
 application.properties
 Dockerfile*
 *.prefs
+.settings
