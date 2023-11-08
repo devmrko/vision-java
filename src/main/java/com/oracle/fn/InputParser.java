@@ -12,7 +12,7 @@ import com.google.gson.Gson;
 @Component
 public class InputParser {
 
-	private static final Logger logger = LoggerFactory.getLogger(VisionFunction.class);
+	private static final Logger logger = LoggerFactory.getLogger(InputParser.class);
 
 	@SuppressWarnings({ "unchecked" })
 	public String getParsingValue(String input) throws InputParseException {

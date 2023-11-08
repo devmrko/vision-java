@@ -1,4 +1,4 @@
-package com.example.fn;
+package com.oracle.fn;
 
 import org.junit.Rule;
 import org.junit.Test;
